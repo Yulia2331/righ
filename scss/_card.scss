@@ -1,0 +1,157 @@
+.card {
+    background: #FFFFFF;
+    border: 1px solid #EFF2F6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.goods-slider .slick-list{
+    width: 100%;
+}
+.goods-slider .slick-track{
+    justify-content: space-between;
+    min-width: 100%;
+    padding-left: 3px;
+}
+.goods-slider{
+    position: relative;
+}
+.goods-card {
+    position: relative;
+    padding-left: 24px;
+    padding-right: 17px;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    min-width: 19%;
+    margin-right: 1%;
+}
+.goods-card:last-child {
+    margin-right: 0.4%;
+}
+.goods-card__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.goods-card__price-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.goods-card__price {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 120%;
+    color: $b;
+}
+.goods-card__lable{
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: -3px;
+    background: $bg;
+    color: $w;
+    font-size: 14px;
+    line-height: 120%;
+    padding: 4px;
+    &::before{
+        content: ''; 
+        position: absolute;
+        left: -3px; bottom: -3px;
+        border: 3px solid transparent;
+        border-right: 3px solid $b;
+    }
+}
+.goods-card__more {
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    background: linear-gradient(132.44deg, #F74F4F 24.1%, #D20C0C 71.59%);
+    box-shadow: 0px 4px 10px rgba(198, 20, 20, 0.2);
+    color: $w;
+}
+.cat-card .goods-card__more{
+    margin-top: 12px;
+}
+.proj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.proj-card {
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 60px;
+    padding-right: 22px;
+    background: $w;
+    width: 24%;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.proj-card__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+}
+.proj-card__descr {
+    font-size: 16px;
+    line-height: 140%;
+}
+.proj-card__btn {
+    border: 1px solid $b;
+    color: $b;
+    width: 120px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.slider{
+    position: relative;
+}
+.slider-card{
+    margin-right: 1%;
+}
+.slider-card:last-child {
+    margin-right: 0;
+}
+.po-card {
+    padding: 27px;
+    padding-bottom: 48px;
+}
+.po-card__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.po-card__descr {
+    display: block;
+}
+.brend-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 19%;
+    height: 170px;
+    margin-right: 1%;
+}
+.certifications-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 13px 10px;
+    margin: 0 5px;
+    margin-bottom: 20px;
+}
+.slider-certifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.certifications-card__img{
+    width: 100%;
+}

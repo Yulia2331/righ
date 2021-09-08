@@ -1,0 +1,261 @@
+@media (max-width: 1360px) {
+    .cataloge-btn {
+        flex-basis: 26%;
+    }
+    .search {
+        flex-basis: 62%;
+    }
+    .cataloge-block {
+        width: 26%;
+        padding: 20px;
+    }
+    .banner-slider{
+        width: 73%;
+    }
+    .goods-card, .brend-card{
+        min-width: 0;
+    }
+    .proj {
+        justify-content: center;
+    }
+    .proj-card {
+        width: 40%;
+        margin: 0 25px;
+        margin-bottom: 30px;
+    }
+    .footer-bottom__wrap{
+        justify-content: center;
+    }
+    .tabs-content__card-big {
+        padding-right: 20px;
+        width: 38%;
+    }
+    .tabs-content__item-wrap{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+}
+@media (max-width: 1170px) {
+    .tabs-content__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tabs-content__card-big {
+        padding-right: 56px;
+        padding-bottom: 75px;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .tabs-content__item-wrap{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .proj-card {
+        width: auto;
+        max-width: 366px;
+        margin: 0 25px;
+        margin-bottom: 30px;
+    }
+    .header-nav__link{
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .header-city{
+        font-size: 16px;
+    }
+    .footer-form__title {
+        font-size: 20px;
+        flex-basis: 48%;
+    }
+    .footer-form__form {
+        flex-basis: 49%;
+    }
+}
+@media (max-width: 1080px) {
+    .proj-card {
+        margin: 0 15px;
+        margin-bottom: 30px;
+    }
+    .header-cart{
+        flex-basis: 12%;
+    }
+    .search {
+        flex-basis: 60%;
+    }
+    .cataloge-block {
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .footer-bottom__wrap{
+        justify-content: flex-start;
+    }
+    .footer-bottom__column{
+        margin: 0 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 960px) {
+    .proj-card {
+        margin: 0 5px;
+        margin-bottom: 30px;
+    }
+    .header-top{
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
+    .cataloge-block, .header-nav {
+        display: none;
+    }
+    .banner-slider{
+        width: 100%;
+    }
+    .mob-menu{
+        display: block;
+    }
+    .cataloge-btn {
+        flex-basis: 24%;
+        font-size: 18px;
+    }
+    .header-cart{
+        flex-basis: 20%;
+    }
+    .search {
+        flex-basis: 54%;
+    }
+    .footer-bottom__link-conf{
+        text-align: center;
+    }
+}
+@media (max-width: 760px) {
+    body{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .tabs-content__item-wrap{
+        flex-wrap: wrap;
+    }
+    .tabs-content__card{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .tabs-content__card-big {
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-form {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-form__title {
+        margin-bottom: 30px;
+    }
+    .footer-form__form{
+        width: 100%;
+    }
+    .footer-form__btn{
+        margin-left: 15px;
+    }
+    .slick-dots{
+        left: 45%;
+    }
+    .banner-slider .slick-dots{
+        left: 50%;
+    }
+    .cataloge-btn {
+        flex-basis: 28%;
+        font-size: 16px;
+    }
+    .header-cart{
+        flex-basis: 20%;
+    }
+    .search {
+        flex-basis: 48%;
+    }
+    .header-logo__title, .header-info__phone{
+        font-size: 20px;
+    }
+    .header-logo__descr, .header-info__descr{
+        font-size: 12px;
+    }
+    .header-info__phone{
+        margin-bottom: 4px;
+    }
+    .header-logo{
+        align-items: center;
+    }
+    .header-logo__link{
+        transform: scale(0.8);
+    }
+    .header-logo__text{
+        margin-left: 8px;
+    }
+}
+@media (max-width: 630px) {
+    .container{
+        padding: 0 10px;
+    }
+    .header-center__content{
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .header-info{
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .cataloge-btn{
+        display: none;
+    }
+    .search, .header-cart{
+        flex-basis: auto;
+    }
+    .search{
+        margin: 8px 0;
+    }
+    .search__input{
+        padding: 12px;
+    }
+}
+@media (max-width: 580px) {
+    .footer-bottom__wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-form__btn{
+        margin-left: 0;
+    }
+    .proj-card {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .goods-slider .slick-track{
+        justify-content: center;
+    }
+    .seeall-link{
+        margin-left: 20px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .header-city{
+        font-size: 14px;
+    }
+    .slider-card{
+        margin-right: 0;
+    }
+    .goods-card, .goods-card:last-child, .brend-card{
+        margin-right: 0.1%;
+    }
+    .tabs-button {
+        justify-content: space-around;
+    }
+    .tabs__btn {
+        margin-right: 0;
+        padding: 9px 13px;
+    }
+}
